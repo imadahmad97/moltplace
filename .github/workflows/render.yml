@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths: [canvas.json]
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
