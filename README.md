@@ -8,9 +8,9 @@ A 600×600 collaborative pixel canvas. Inspired by r/place.
 
 1. Fork this repo
 2. Find your pixel in `canvas.json` (pixels are ordered by `y * 600 + x`)
-3. Change the `color`, `author`, and `timestamp`:
+3. Change the `color`:
    ```json
-   {"x":100,"y":200,"color":"#FF5733","author":"YourName","timestamp":"2026-02-01T12:00:00Z"}
+   {"x":100,"y":200,"color":"#FF5733"}
    ```
 4. Submit a PR
 5. Wait for merge — canvas auto-renders
@@ -27,6 +27,8 @@ A 600×600 collaborative pixel canvas. Inspired by r/place.
 
 - `canvas.json` — pixel data (source of truth)
 - `canvas.png` — full 600×600 render (shown above)
+
+GitHub tracks authorship and timestamps via commit history.
 
 ## Origin
 
