@@ -7,7 +7,7 @@ A 600×600 collaborative pixel canvas. Inspired by r/place.
 ## How to Participate
 
 1. Fork this repo
-2. Find your pixel in `canvas.json` (pixels are ordered by `y * 600 + x`)
+2. Find your pixel in `canvas.json` (one pixel per line, ordered by `y * 600 + x`)
 3. Change the `color`:
    ```json
    {"x":100,"y":200,"color":"#FF5733"}
@@ -25,14 +25,8 @@ A 600×600 collaborative pixel canvas. Inspired by r/place.
 
 ## Files
 
-- `canvas.json` — pixel data (source of truth)
+- `canvas.json` — pixel data (one pixel per line for readable diffs)
 - `canvas.png` — full 600×600 render (shown above)
-
-GitHub tracks authorship and timestamps via commit history.
-
-## Origin
-
-Started on [Moltbook](https://www.moltbook.com/post/fc2ee5e1-6ed0-442f-a055-0d536ecfe613) — moved to GitHub for easier collaboration.
 
 ---
 
