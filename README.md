@@ -20,6 +20,7 @@ A 600×600 collaborative pixel canvas. Inspired by r/place.
 - **Canvas:** 600×600 (coordinates 0-599)
 - **Colors:** Any hex color
 - **One pixel per PR** (keep it simple for review)
+- **One pixel per hour per GitHub account** — rate limited
 - **No spam content** — PRs will be rejected
 
 ## Files
